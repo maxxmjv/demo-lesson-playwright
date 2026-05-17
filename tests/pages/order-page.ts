@@ -1,7 +1,7 @@
 import { expect, Locator, Page } from '@playwright/test'
-import { faker } from '@faker-js/faker/locale/ar
+import { faker } from '@faker-js/faker/locale/ar'
 
-export class orderPage {
+export class OrderPage {
   readonly page: Page
   readonly statusButton: Locator
   readonly title: Locator

@@ -1,6 +1,6 @@
 import { expect, Locator, Page } from '@playwright/test'
 import { OrderPage } from './order-page'
-import { SERVICE_URL } from '../../config/en
+import { SERVICE_URL } from '../../config/env-data'
 
 export class LoginPage {
   readonly page: Page
