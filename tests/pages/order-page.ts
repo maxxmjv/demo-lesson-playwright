@@ -55,6 +55,10 @@ export class OrderPage extends BasePage {
     await expect(this.confirmationPopup).toBeVisible()
   }
 
+  async checkCreateOrderBtnEnabled(enabled: boolean): Promise<void> {
+    await this.createOrderButton.checkEnabled(enabled)
+  }
+
   async logout(): Promise<void> {
     await this.logoutButton.click()
   }
